@@ -1,0 +1,7 @@
+@use '../../index.scss' as *;
+
+.chats {
+  .user-chat {
+    @extend %user-chat;
+  }
+}
